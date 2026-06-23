@@ -33,7 +33,7 @@ A production-grade Python automation system that ingests enterprise data, valida
 ---
 
 ## Project Structure
-
+```
 enterprise-data-pipeline/
 ├── README.md                 # This file
 ├── requirements.txt          # Python dependencies
@@ -58,7 +58,7 @@ enterprise-data-pipeline/
 │   └── test_database.py     # Tests database operations
 └── docs/
 └── architecture.md      # Detailed architecture notes
-
+```
 ---
 
 ## Quick Start
