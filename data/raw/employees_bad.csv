@@ -1,0 +1,5 @@
+name,email,department,salary,employee_id
+Bad User 1,not-an-email,Engineering,120000,E011
+Bad User 2,bad2@apple.com,FakeDept,120000,E012
+Bad User 3,bad3@apple.com,Engineering,-5000,E013
+,blank@apple.com,Engineering,120000,E014

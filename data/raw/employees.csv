@@ -1,0 +1,11 @@
+name,email,department,salary,employee_id
+Alice Johnson,alice@apple.com,Engineering,125000,E001
+Bob Smith,bob@apple.com,Sales,95000,E002
+Charlie Brown,charlie@apple.com,Engineering,130000,E003
+Diana Prince,diana@apple.com,Marketing,110000,E004
+Eve Davis,eve@apple.com,HR,85000,E005
+Frank Miller,frank@apple.com,Finance,140000,E006
+Grace Lee,grace@apple.com,Operations,90000,E007
+Henry Wilson,henry@apple.com,Legal,115000,E008
+Ivy Chen,ivy@apple.com,IT,105000,E009
+Jack Taylor,jack@apple.com,Sales,98000,E010
