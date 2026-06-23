@@ -1,4 +1,3 @@
-# TEST EDIT - DELETE THIS LINE
 # Enterprise Data Pipeline & Automation Tool
 
 A production-grade Python automation system that ingests enterprise data, validates it, stores it in a database, and generates automated reports.
