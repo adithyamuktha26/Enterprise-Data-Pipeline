@@ -8,8 +8,6 @@ A production-grade Python automation system that ingests enterprise data, valida
 
 ## What It Does
 
-## What It Does
-
 ![Architecture Diagram](docs/architecture.png)
 
 1. **Ingests** CSV/Excel files from the `data/raw/` folder
@@ -106,7 +104,7 @@ name,email,department,salary,employee_id
 Alice Johnson,alice@apple.com,Engineering,125000,E001
 Bob Smith,bob@apple.com,Sales,95000,E002
 
-### 4. How It Works (Detailed Flow)
+### How It Works (Detailed Flow)
 
 Step 1: Ingestion (src/ingest.py)
 - Reads CSV/Excel using Pandas
@@ -136,7 +134,7 @@ Step 5: Scheduling (src/scheduler.py)
 - Supports cron-style (daily at 9 AM) or interval-style (every hour)
 - Logs all runs with timestamps and success/failure status
 
-### 5. Testing
+### Testing
 
 Run the test suite:
 ```bash
@@ -160,12 +158,12 @@ All tests are self-contained and create temporary files/databases that clean up 
 | **Documentation**             | Comprehensive README, inline docstrings, architecture notes                  |
 
 
-### 6. Future Enhancements
+### Future Enhancements
 • [ ] REST API layer (FastAPI) for real-time data submission
 • [ ] PostgreSQL migration for production scale
 • [ ] Docker containerization for deployment
 • [ ] Cloud storage integration (S3) for raw files
 • [ ] Machine learning pipeline for data anomaly detection
 
-License
+### License
 MIT License — free to use and modify.
