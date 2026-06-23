@@ -104,6 +104,8 @@ name,email,department,salary,employee_id
 Alice Johnson,alice@apple.com,Engineering,125000,E001
 Bob Smith,bob@apple.com,Sales,95000,E002
 
+---
+
 ### How It Works (Detailed Flow)
 
 Step 1: Ingestion (src/ingest.py)
@@ -134,6 +136,8 @@ Step 5: Scheduling (src/scheduler.py)
 - Supports cron-style (daily at 9 AM) or interval-style (every hour)
 - Logs all runs with timestamps and success/failure status
 
+---
+
 ### Testing
 
 Run the test suite:
@@ -157,6 +161,7 @@ All tests are self-contained and create temporary files/databases that clean up 
 | **APIs & integration**        | Slack webhook integration, SMTP email, extensible for REST APIs              |
 | **Documentation**             | Comprehensive README, inline docstrings, architecture notes                  |
 
+---
 
 ### Future Enhancements
 • [ ] REST API layer (FastAPI) for real-time data submission
@@ -164,6 +169,8 @@ All tests are self-contained and create temporary files/databases that clean up 
 • [ ] Docker containerization for deployment
 • [ ] Cloud storage integration (S3) for raw files
 • [ ] Machine learning pipeline for data anomaly detection
+
+---
 
 ### License
 MIT License — free to use and modify.
